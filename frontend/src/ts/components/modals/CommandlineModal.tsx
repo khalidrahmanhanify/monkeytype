@@ -166,10 +166,10 @@ function ThemeBubbles(props: { customData: Record<string, string | boolean> }) {
         <Fa icon="fa-star" />
       </div>
       <div
-        class="grid grid-flow-col place-content-center gap-[0.5em] rounded-[1em]"
+        class="grid grid-flow-col place-content-center gap-[0.5em] rounded-[1em] p-[0.25rem]"
         style={{
           background: color("bg"),
-          outline: `0.25rem solid ${color("bg")}`,
+          // outline: `0.25rem solid ${color("bg")}`,
         }}
       >
         <For each={["main", "sub", "text"]}>
